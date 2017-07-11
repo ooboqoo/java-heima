@@ -230,9 +230,13 @@ int a1 = 3, a2 = 3;
 System.out.println(a1++);  // 3
 System.out.println(++a2);  // 4
 
-byte b =10;
+byte b = 10;
 b++;           // 正常，相当于 b = (byte) (b + 1);
 b = b + 1;     // 报错
+
+byte bb1 = 127;
+bb1 += 4;
+System.out.println(bb1);  // 输出 -125，不会报错
 ```
 
 ### 22. 赋值运算符的基本用法 (掌握)
