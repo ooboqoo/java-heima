@@ -1,4 +1,4 @@
-/** constant ³£Á¿ */
+/** constant */
 class Constant {
 	public static void main(String[] args) {
 		System.out.println("abc");
